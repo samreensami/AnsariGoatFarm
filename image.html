@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Goats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+  <div class="logo">GOATS.</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="images.html">Images</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+
+  <section class="gallery">
+    <h2><u>Our Goats</u></h2>
+    <div class="product" onclick="showImages(1)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\1.png" alt="Product 1">
+      <p>یہ بکرا چار دانت کا ہو رہا ہے</p>
+    </div>
+    <div class="product" onclick="showImages(2)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\2.png" alt="Product 2">
+       <p>یہ بکرا دو دانت کا ہے</p>
+    </div>
+    <div class="product" onclick="showImages(3)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\25.png" alt="Product 3">
+       <p>یہ بکرا دو دانت کا ہے</p>
+    </div>
+    <div class="product" onclick="showImages(4)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\5.png" alt="Product 4">
+       <p>یہ بکرا دو دانت کا ہے</p>
+    </div>
+    <div class="product" onclick="showImages(5)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\17.jpg" alt="Product 5">
+       <p>یہ بکرا چار دانت کا ہو رہا ہے</p>
+    </div>
+    <div class="product" onclick="showImages(6)">
+      <img src="c:\Users\Zeeshan\OneDrive\Pictures\Saved Pictures\12.png" alt="Product 6">
+       <p>یہ بکرا دو دانت کا ہے</p>
+    </div>
+  </section>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <div id="modal-images" class="modal-content"></div>
+    <span class="close" onclick="closeModal()">&times;</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
