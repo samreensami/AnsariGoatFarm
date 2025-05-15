@@ -12,7 +12,6 @@ function showImages(productId) {
       3: ["image/11.png", "image/4.png", "image/25.png"],
       4: ["image/16.png", "image/5.png", "image/21.jpg"],
       5: ["image/8.png", "image/7.png", "image/17.jpg"],
-      6: ["image/22.jpg", "image/24.jpg", "image/12.png"]
     };
   
     images[productId].forEach(src => {
