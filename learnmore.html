@@ -7,14 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
   <div class="logo">Ansari Goat Farm.</div>
-  <nav>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  <nav id="nav-links">
     <a href="index.html">Home</a>
     <a href="image.html">Images</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
+
 <section class="learn-more">
   <h1><u>Learn More About Goat Care✨</u></h1>
 
@@ -54,5 +57,15 @@
   </p>
 </section>
 <script src="script.js"></script>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+
 </body>
 </html>

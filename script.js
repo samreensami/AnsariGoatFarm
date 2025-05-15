@@ -27,4 +27,12 @@ function showImages(productId) {
   function closeModal() {
     document.getElementById("modal").style.display = "none";
   }
-  
+  const toggleBtn = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+toggleBtn.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+document.getElementById('menu-toggle').addEventListener('click', function () {
+  document.getElementById('nav-links').classList.toggle('show');
+});
